@@ -1,0 +1,15 @@
+# Conda local env
+.venv/
+
+# python / editor caches
+__pycache__/
+*.py[cod]
+
+# Logs and generated artifacts
+logs/*.log
+data/raw/*
+
+# Keep folder structure 
+!results/.gitkeep
+!logs/.gitkeep
+!data/raw/.gitkeep
