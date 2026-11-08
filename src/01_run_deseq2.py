@@ -53,6 +53,7 @@ print("[4/8] Ejecutando DESeq...")
 dds.deseq2()
 plt.ion()
 dds.plot_dispersions(save_path="results/plot_dispersions.png")
+plt.title("Dispersion dds")
 plt.close("all")
 
 print("[5/8] Extrayendo resultados y guardando tablas")
